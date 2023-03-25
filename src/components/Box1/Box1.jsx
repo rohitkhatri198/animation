@@ -1,6 +1,6 @@
 import React from 'react'
-import {motion} from 'framer-motion'
 import { useState } from 'react'
+import motion from 'framer-motion'
 function Box1() {
   const[isAnimating, setIsAnimating]= useState(false)
   const[isX, setIsX]= useState(false)
