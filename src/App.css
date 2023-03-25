@@ -8,8 +8,8 @@
 
 }
 .box{
-  height: 20rem;
-  width: 20rem;
+  height: 20vw;
+  width: 20vw;
   background-color: aqua;
   text-align: center;
   display: flex;

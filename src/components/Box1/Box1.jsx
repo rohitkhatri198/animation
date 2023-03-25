@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import motion from 'framer-motion'
+import {motion} from 'framer-motion'
 function Box1() {
   const[isAnimating, setIsAnimating]= useState(false)
   const[isX, setIsX]= useState(false)
@@ -38,7 +38,7 @@ function Box1() {
         onClick={call}
         onDoubleClick={reCall}
         >
-          {isX?`MonkeTits🤤🤤`: `Click Here Bitch`}
+          {isX?`🐒  `: `Click Here Bitch`}
           <motion.div animate={{
           }} className={isVisible?'show' : 'hide'}> Now DoubleClick dumbass</motion.div>
         </motion.div>
