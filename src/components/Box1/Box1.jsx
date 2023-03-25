@@ -38,7 +38,7 @@ function Box1() {
         onClick={call}
         onDoubleClick={reCall}
         >
-          {isX?`Bhains`: `Click Here Bitch`}
+          {isX?`MonkeTits🤤🤤`: `Click Here Bitch`}
           <motion.div animate={{
           }} className={isVisible?'show' : 'hide'}> Now DoubleClick dumbass</motion.div>
         </motion.div>
