@@ -14,6 +14,7 @@ function Box1() {
     setIsAnimating(false);
     setIsX(false)
     setIsVisible(false)
+    console.log("hi");
   }
   
   return (
@@ -33,13 +34,13 @@ function Box1() {
         transition={{
           type: "spring",
           stiffness:30,
-          damping:20,
+          damping:20, 
         }}
         onClick={call}
-        onDoubleClick={reCall}
+       
         >
           {isX?`🐒`: `Click Here Bitch`}
-          <motion.div animate={{
+          <motion.div  onClick={reCall} animate={{
           }} className={isVisible?'show' : 'hide'}> Now DoubleClick dumbass</motion.div>
         </motion.div>
     </div>
